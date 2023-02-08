@@ -1,0 +1,149 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d4e0f7;
+    background-size: cover;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-image: url("./X6MIlne.webp");
+    background-size: cover;
+    background-attachment: fixed;
+}
+ 
+  h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    color: #4CAF50;
+    text-align: center;
+    margin-top: 50px;
+    text-shadow: 1px 1px #ddd;
+    letter-spacing: 2px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+.num-label {
+  font-size: 34px;
+  font-weight: bold;
+  color: rgb(251, 246, 246);
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .input-section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  #num-input {
+    width: 150px;
+    margin-right: 10px;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 2rem;
+    text-align: center;
+    box-sizing: border-box;
+    transition: all 0.2s ease-in-out;
+}
+#num-input:focus {
+    border-color: #4CAF50;
+    outline: none;
+}
+  
+  #generate-btn {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor:pointer;
+    border-radius: 50px;
+  }
+
+  #generate-btn:hover {
+    background-color: #3e8e41;
+  }
+  
+  .display-section {
+    background-color: #edf6fb;
+    padding: 20px;
+    border: 5px solid #ccc;
+    font-size: 1.2rem;
+    max-width: 1000px;
+    margin: auto;
+}
+
+#copy-button {
+  padding: 0.5rem 0.75rem;
+  font-size: 0.75rem;
+  color: white;
+  background-color: grey;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#copy-button:hover {
+  background-color: darkgrey;
+}
+#copy-button:active {
+  background-color: #357a38;
+  transform: translateY(2px);
+}
+
+#copy-button:disabled {
+  background-color: #ccc;
+  color: #666;
+  cursor: default;
+  box-shadow: none;
+  transform: none;
+}
+
+.get-words-btn {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px #ccc;
+    transition: all 0.2s ease-in-out;
+    font-weight: bold;
+    text-transform: uppercase;
+    justify-content: center;
+}
+  
+.get-words-btn:hover {
+    background-color: #3e8e41;
+    transform: translateY(-2px) scale(1.05);
+    box-shadow: 0px 2px 5px #ccc;
+}
+
+.get-words-btn:active {
+    background-color: #357a38;
+    transform: translateY(2px);
+}
+
+.get-words-btn:disabled {
+    background-color: #ccc;
+    color: #666;
+    cursor: default;
+    box-shadow: none;
+    transform: none;
+}
