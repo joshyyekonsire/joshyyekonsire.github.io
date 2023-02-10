@@ -1,18 +1,48 @@
- /* Add container for buttons */
- .container {
+/* Add gradient background */
+body {
+    background: linear-gradient(to right, #00b0ff, #0091ea);
+    height: 100vh;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Style header and footer */
+  header, footer {
+    background-color: #fff;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  /* Style navigation */
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav a {
+    display: block;
+    padding: 1rem;
+    text-decoration: none;
+    color: #000;
+  }
+  
+  /* Style main content */
+  .container {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 100%;
+  }
   
-}
-#projects {
-    margin-right: 100px;
-    padding: 1000px;
-
-}
-/* Style buttons */
-button, input[type="button"] {
+  h1 {
+    font-size: 36px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #0091ea;
+  }
+  
+  /* Style buttons */
+  button, a {
     padding: 10px 20px;
     border: none;
     border-radius: 10px;
@@ -23,32 +53,15 @@ button, input[type="button"] {
     outline: none;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
-}
-
-/* Add gradient color to buttons */
-button, input[type="button"] {
     background: linear-gradient(to right, #00b0ff, #0091ea);
     color: white;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
-}
-
-/* Add hover effect to buttons */
-button:hover, input[type="button"]:hover {
+    margin: 1rem;
+  }
+  
+  /* Add hover effect to buttons */
+  button:hover, a:hover {
     transform: translateY(-5px);
     box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.2);
-}
-
-/* Add active effect to buttons */
-button:active, input[type="button"]:active {
-    transform: translateY(0px);
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-/* Style page title */
-h1 {
-    text-align: center;
-    font-size: 36px;
-    font-weight: bold;
-    letter-spacing: 2px;
-    color: #0091ea;
-}
+  }
+  
