@@ -12,7 +12,6 @@ body {
   
 }
 
-/* header styles */
 header {
   position: fixed;
   top: 0;
@@ -21,7 +20,7 @@ header {
   height: auto;
   background-color: #1c2331;
   display: flex;
-  align-items: center; /* new */
+  align-items: center;
   padding-top: 10px;
   padding-bottom: 10px;
 }
@@ -193,9 +192,6 @@ nav ul li .hover-options a:hover {
   z-index: -2;
 }
 
-
-
-/* main styles */
 .container {
   display: flex;
   flex-direction: column;
@@ -325,10 +321,10 @@ nav ul li .hover-options a:hover {
   }
   
   .about-me li {
-    font-family: "Open Sans", sans-serif; /* change font-family to a more modern and readable font */
+    font-family: "Open Sans", sans-serif;
     font-size: 16px;
-    font-weight: 600; /* add font-weight for better legibility */
-    line-height: 1.5; /* add line-height for better readability */
+    font-weight: 600;
+    line-height: 1.5;
     color: #2c3e50;
     margin: 10px;
     padding: 15px;
@@ -426,7 +422,6 @@ nav ul li .hover-options a:hover {
   background-color: #384f77;
 }
 
-/* footer styles */
 footer {
   position: fixed;
   bottom: 0;
@@ -445,7 +440,6 @@ footer {
  margin-right: 20px;
 }
 
-/* Style all font awesome icons */
 .fa {
   padding: 15px;
  margin-right: 2px;
@@ -456,20 +450,15 @@ footer {
   border-radius: 10px;
 }
 
-/* Add a hover effect if you want */
 .fa:hover {
   opacity: 0.7;
 }
 
-/* Set a specific color for each brand */
-
-/* Facebook */
 .fa-facebook {
   background: #3B5998;
   color: white;
 }
 
-/* Twitter */
 .fa-twitter {
   background: #55ACEE;
   color: white;

@@ -27,7 +27,6 @@ addButton.addEventListener("click", function() {
     listItem.textContent = file.name;
     fileList.appendChild(listItem);
 
-    // Create delete button and append to list item
     const deleteButton = document.createElement("button");
     deleteButton.textContent = "Delete";
     deleteButton.classList.add("delete-button");
@@ -36,7 +35,6 @@ addButton.addEventListener("click", function() {
       listItem.remove();
     });
 
-    // Create open button and append to list item
     const openButton = document.createElement("button");
     openButton.textContent = "Open";
     listItem.appendChild(openButton);

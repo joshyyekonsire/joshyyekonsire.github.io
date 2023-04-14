@@ -14,8 +14,6 @@ header {
   text-align: center;
 }
 
-
-/* Table styles */
 table {
   border-collapse: collapse;
   width: 100%;
@@ -42,7 +40,6 @@ th {
   letter-spacing: 0.1em;
 }
 
-/* Type styles */
 .link {
   font-weight: bold;
 }
@@ -83,7 +80,6 @@ th {
   letter-spacing: 0.1em;
 }
 
-/* Container styles */
 .section-container {
   max-width: 800px;
   margin: 0 auto;

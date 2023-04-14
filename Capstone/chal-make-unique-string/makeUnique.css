@@ -3,21 +3,18 @@ body {
     margin: 0;
     padding: 0;
 }
-/* Center the container div */
 .container {
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
 }
-/* Form container styles */
 .form-container {
     background-color: #f2f2f2;
     padding: 20px;
     width: 300px;
     border-radius: 10px;
 }
-/* Form input styles */
 form label {
     display: block;
     margin-bottom: 10px;
@@ -40,7 +37,6 @@ form input[type="submit"] {
     border-radius: 4px;
     cursor: pointer;
 }
-/* Result container styles */
 .result-container {
     margin-top: 20px;
 }
