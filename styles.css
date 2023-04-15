@@ -313,8 +313,8 @@ nav ul li .hover-options a:hover {
   }
   
   .icon-row img {
-    width: 50px;
-    height: 50px;
+    width: 65px;
+    height: 65px;
     margin: 10px;
     object-fit: cover;
     border-radius: 25%;
@@ -362,7 +362,7 @@ nav ul li .hover-options a:hover {
   
   .about-me li {
     font-family: "Open Sans", sans-serif;
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 600;
     
     color: #2c3e50;
