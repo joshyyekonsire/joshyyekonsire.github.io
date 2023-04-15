@@ -11,17 +11,7 @@ body {
   background-color: #1c2331;
   
 }
-/* #saltLakeCityForKodi{
-width: 100%;
-height: 700px;
-background-image: url("./R4153Y.jpg");
-background-repeat:no-repeat;
-background-position: center;
-background-size: cover;
-opacity: 60%;
-border: #000000;
-z-index: 1000;
-} */
+
 header {
   position: fixed;
   top: 0;
@@ -33,6 +23,8 @@ header {
   align-items: center;
   padding-top: 10px;
   padding-bottom: 10px;
+  z-index: 1000;
+ 
 }
 
 nav {
@@ -267,7 +259,7 @@ nav ul li .hover-options a:hover {
     margin: 0 auto;
   }
   to {
-    width: 14ch;
+    width: 13ch;
     margin: 0 auto;
   }
 }
@@ -305,11 +297,10 @@ nav ul li .hover-options a:hover {
 .about-me h2 {
   
   font-size: 45px;
-  font-weight: bold;
+  
   margin-bottom: 75px;
   margin-top: 75px;
   color: #2c3e50;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   text-align: center;
   }
   
@@ -322,8 +313,8 @@ nav ul li .hover-options a:hover {
   }
   
   .icon-row img {
-    width: 70px;
-    height: 70px;
+    width: 3%;
+    height: 3%;
     margin: 10px;
     object-fit: cover;
     border-radius: 25%;
@@ -334,7 +325,6 @@ nav ul li .hover-options a:hover {
   color: #2c3e50; 
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   
-  margin-top: 150px;
   text-align: justify;
   max-width: 40vw;
   margin: 0 auto;
@@ -378,7 +368,6 @@ nav ul li .hover-options a:hover {
   margin-bottom: 30px;
   margin-top: 30px;
   color: #2c3e50;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
   text-align: center;
   }
 
@@ -397,7 +386,6 @@ nav ul li .hover-options a:hover {
     font-size: 45px;
     font-weight: bold;
     color: #2c3e50;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     text-align: center;
     margin-bottom: 30px;
   }
