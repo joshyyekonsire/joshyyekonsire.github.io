@@ -1,0 +1,70 @@
+/* Set default font styles */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  /* Add background and text colors */
+  body {
+    background-color: #f2f2f2;
+    color: #333;
+  }
+  
+  /* Style header and footer */
+  header, footer {
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  /* Add styles for introduction section */
+  header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+  }
+  
+  header p {
+    font-size: 1.5em;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  /* Style the main section */
+  main {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  /* Style the image and description sections */
+  section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 40px;
+  }
+  
+  section img {
+    width: 30%;
+    margin-bottom: 10px;
+  }
+  
+  section div {
+    width: 65%;
+    padding: 10px;
+    background-color: #fff;
+  }
+  
+  section div p {
+    font-size: 1.2em;
+    line-height: 1.5;
+  }
+  
+  /* Add styles for footer */
+  footer {
+    text-align: center;
+    font-size: 0.8em;
+    background-color: #333;
+    color: #fff;
+    margin-top: 40px;
+  }

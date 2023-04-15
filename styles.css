@@ -281,6 +281,7 @@ nav ul li .hover-options a:hover {
   font-size: 35px;
   color: white;
   text-shadow: 2px 2px 4px #000000;
+  
 }
 .about-me {
   background: linear-gradient(to bottom, #b9d7fa, rgb(247, 243, 243), #b9d7fa);
@@ -302,6 +303,13 @@ nav ul li .hover-options a:hover {
   margin-top: 100px;
   color: #2c3e50;
   text-align: center;
+  }
+
+  #tech-skills {
+    margin-top: 300px;
+  }
+  #projectsection {
+    margin-top: 200px;
   }
   
   .icon-row {
@@ -410,7 +418,7 @@ nav ul li .hover-options a:hover {
     color: #2c3e50;
     text-align: center;
     margin-bottom: 100px;
-  margin-top: 100px;
+  
   }
  
   
@@ -438,10 +446,11 @@ nav ul li .hover-options a:hover {
     transform: scale(1.1);
   }
   .mini-project-card img {
-    width: 100%;
-    height: 200px;
+    width: 90%;
+    max-height: 150px;
+    min-height: 150px;
     object-fit: cover;
-    border-radius: 10px 10px 0 0;
+    border-radius: 5px 5px 0 0;
   }
   
   .mini-project-card h3 {
@@ -486,7 +495,7 @@ footer {
   height: auto;
   background-color: #1c2331;
   display: flex;
-  
+
   align-items: center;
 }
 
