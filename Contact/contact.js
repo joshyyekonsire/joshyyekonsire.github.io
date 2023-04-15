@@ -17,6 +17,5 @@ document.getElementById('contact-form').addEventListener('submit', function(even
   // Send the email using EmailJS
   console.log("Sending email...");
   alert("Message sent successfully")
-  const form = document.getElementById('contact-form');
-  
+  location.reload();
 });
